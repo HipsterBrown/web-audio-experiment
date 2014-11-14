@@ -2,6 +2,9 @@
 
 @import 'settings';
 
+
+// Modal Global Styles
+
 #modal {
   background: $bg_color;
   color: $primary-text;
@@ -14,12 +17,16 @@
   width: 75%;
 
   ::selection {
-    background: $button-bg;  
+    background: $button-bg;
   }
 }
 
+
+// Modal Heading Area
+
 .modal-heading {
-  margin-bottom: 3em;
+  margin-bottom: 4em;
+  margin-bottom: 8vw;
 }
 
 .heading {
@@ -29,6 +36,7 @@
 
 .title {
   font-size: 300%;
+  font-size: 4vw;
   letter-spacing: 0.075em;
   text-shadow: 0px .5px .5px $shadow;
   text-transform: uppercase;
@@ -36,17 +44,26 @@
 
 .tag {
   @extend %back-shadow;
+  font-size: 2vw;
   letter-spacing: 0.05em;
+}
+
+
+
+// Modal Content Area
+
+.modal-content {
+  text-align: right;
 }
 
 .description {
   @extend %back-shadow;
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 
 .input-container {
   display: inline-block;
-  min-width: 140px;
+  min-width: 180px;
   position: relative;
   width: 15%;
 }
@@ -93,6 +110,10 @@
     transition: none;
   }
 }
+
+
+
+// Close Modal Area
 
 .close-message {
   position: absolute;

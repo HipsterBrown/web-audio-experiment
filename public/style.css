@@ -19,7 +19,8 @@
     background: #a67812; }
 
 .modal-heading {
-  margin-bottom: 3em; }
+  margin-bottom: 4em;
+  margin-bottom: 8vw; }
 
 .heading {
   font-weight: 500;
@@ -27,19 +28,24 @@
 
 .title {
   font-size: 300%;
+  font-size: 4vw;
   letter-spacing: 0.075em;
   text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.3);
   text-transform: uppercase; }
 
 .tag {
+  font-size: 2vw;
   letter-spacing: 0.05em; }
 
+.modal-content {
+  text-align: right; }
+
 .description {
-  font-size: 0.6em; }
+  font-size: 0.8em; }
 
 .input-container {
   display: inline-block;
-  min-width: 140px;
+  min-width: 180px;
   position: relative;
   width: 15%; }
 
