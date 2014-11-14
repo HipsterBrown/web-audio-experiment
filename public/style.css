@@ -1,0 +1,110 @@
+.tag, .description, .close-message p {
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3); }
+
+#modal {
+  background: #fcba2d;
+  color: white;
+  font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  left: 50%;
+  padding: 8% 3% 6%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 75%; }
+  #modal ::-moz-selection {
+    background: #a67812; }
+  #modal ::selection {
+    background: #a67812; }
+
+.modal-heading {
+  margin-bottom: 3em; }
+
+.heading {
+  font-weight: 500;
+  margin: 0; }
+
+.title {
+  font-size: 300%;
+  letter-spacing: 0.075em;
+  text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase; }
+
+.tag {
+  letter-spacing: 0.05em; }
+
+.description {
+  font-size: 0.6em; }
+
+.input-container {
+  display: inline-block;
+  min-width: 140px;
+  position: relative;
+  width: 15%; }
+
+.signup-input {
+  border: none;
+  padding: 0.45em 0em 0.45em 1em;
+  width: 96%; }
+  .signup-input::-webkit-input-placeholder {
+    color: #d48a02;
+    text-transform: uppercase; }
+  .signup-input::-moz-placeholder {
+    color: #d48a02;
+    text-transform: uppercase; }
+  .signup-input:-ms-input-placeholder {
+    color: #d48a02;
+    text-transform: uppercase; }
+  .signup-input::placeholder {
+    color: #d48a02;
+    text-transform: uppercase; }
+  .signup-input:focus + [role=tooltip] {
+    opacity: 1;
+    top: 100%; }
+
+[role=tooltip] {
+  font-size: 0.6em;
+  opacity: 0;
+  position: absolute;
+  -webkit-transition: opacity 0.3s ease-in-out;
+          transition: opacity 0.3s ease-in-out; }
+
+.signup-submit {
+  background: #a67812;
+  border: none;
+  box-shadow: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.4em 2em;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+  .signup-submit:hover, .signup-submit:focus {
+    background: #78560d; }
+  .signup-submit:active {
+    background: #a67812;
+    -webkit-transition: none;
+            transition: none; }
+
+.close-message {
+  position: absolute;
+  right: 2%;
+  top: 2%; }
+  .close-message p {
+    font-size: 0.5em;
+    text-transform: uppercase; }
+
+#close-modal {
+  color: inherit;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 0 0.5em;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out; }
+  #close-modal:hover, #close-modal:focus {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2); }

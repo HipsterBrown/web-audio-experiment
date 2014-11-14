@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modal Doc</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="modal">
+    <header class="modal-heading">
+      <h1 class="heading title">Brooklyn Youth Chorus</h1>
+      <h2 class="heading tag">Crossing Boundaries Through Sound</h2>
+    </header>
+    <section class="modal-content">
+      <p class="description">Coming Soon... a new website for Brooklyn Youth Chorus.
+</p>
+      <form class="model-form" action="">
+        <!-- <label for="signup-input" class="hide">Email Address</label> -->
+        <div class="input-container">
+          <input type="email" id="signup-input" class="signup-input" placeholder="Enter Email Address..." aria-describedBy="email-tip" aria-required="true" required>
+          <div role="tooltip" class="tooltip" id="email-tip">Email address to receive BYC updates</div>
+        </div>
+        <input type="submit" role="submit" value="INFO" class="signup-submit">
+      </form>
+    </section>
+    <aside class="close-message">
+      <p>Go directly to the site <a href="#" id="close-modal">&#88;</a></p>
+    </aside>
+  </div>
+</body>
+</html>

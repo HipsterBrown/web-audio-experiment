@@ -1,0 +1,27 @@
+// Colors
+
+$brown: #a67812;
+$light-gold: #fdb525;
+$gold: #fcba2d;
+
+$button-bg: $brown;
+
+$bg_color: $gold;
+$primary-text: white;
+
+$placeholder-color: darken($light-gold, 15%);
+
+$shadow: rgba(black, 0.3);
+
+//Fonts
+
+$sans: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+
+$primary-font: $sans;
+
+
+// Silent extendable features
+
+%back-shadow {
+  text-shadow: 0px 0px 4px $shadow;
+}
