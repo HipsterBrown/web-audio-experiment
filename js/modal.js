@@ -153,9 +153,20 @@ function playSound(buffer) {
 
   src.connect(audio.destination);
 
-  src.start(0);
+  if ('ontouchstart' in window) {
+      modal.addEventListener('touchstart', function(){
+        src.connect(audio.destination);
 
-  animate();
+        src.start(0);
+
+      });
+
+      animate();
+  } else {
+    src.start(0);
+
+    animate();
+  }
 }
 
 function loadBYCSound(url) {
