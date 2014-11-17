@@ -6,7 +6,7 @@
   color: white;
   font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   left: 50%;
-  padding: 8% 3% 6%;
+  padding: 8% 3% 8%;
   position: absolute;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -92,6 +92,12 @@
     background: #a67812;
     -webkit-transition: none;
             transition: none; }
+
+#soundBar {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%; }
 
 .close-message {
   position: absolute;
